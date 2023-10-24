@@ -5,8 +5,8 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  more=more+1;
-  sum=more+sum;
+  more+=1;
+  sum+=more;
   res.send('Sum is: '+sum);
 });
 
