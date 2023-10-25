@@ -34,7 +34,7 @@ router.get('/', function(req, res, next) {
 
     {
 
-        title:'Charishma Computes Functions',
+        title:'Manuja Computes Functions',
 
         c1:c1,
 
