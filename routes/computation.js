@@ -18,13 +18,13 @@ router.get('/', function(req, res, next) {
 
 
 
-    var absFunction=Math.pow(c1)
+    var powFunction=Math.pow(c1)
 
-    var cosFunction=Math.sign(c2)
+    var signFunction=Math.sign(c2)
 
-    var sinFunction=Math.tanh(c3)
+    var tanhFunction=Math.tanh(c3)
 
-    var sinhFunction=Math.trunc(c4)
+    var truncFunction=Math.trunc(c4)
 
 
 
@@ -44,13 +44,13 @@ router.get('/', function(req, res, next) {
 
         c4:c4,
 
-        c:absFunction,
+        m:powFunction,
         
-        h:cosFunction,
+        a:signFunction,
 
-        a:sinFunction,
+        n:tanhFunction,
 
-        r:sinhFunction
+        u:truncFunction
 
 
 
