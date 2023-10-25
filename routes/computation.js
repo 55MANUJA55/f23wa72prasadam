@@ -18,7 +18,7 @@ router.get('/', function(req, res, next) {
 
 
 
-    var powFunction=Math.pow(c1)
+    var powFunction=Math.pow(c1,c2)
 
     var signFunction=Math.sign(c2)
 
